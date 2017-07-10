@@ -21,7 +21,7 @@ The code above installs an interceptor into the `Call` phase of an `ApplicationC
 when the request is asking for a root page.  
 
 This is just an example and usually URI's are not handled in this way, as there is a [routing](Feature-Routing) facility that does this
- and and more. Also, as mentioned previously, defining interceptor is usually done using [Features](Feature) using an `install` function.
+ and and more. Also, as mentioned previously, defining interceptor is usually done using [Features](Features) using an `install` function.
    
 Most functions available on `ApplicationCall` (such as `respondText` above) are `suspend` functions, indicating that they 
 can potentially execute asynchronously.
