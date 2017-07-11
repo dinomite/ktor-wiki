@@ -1,8 +1,8 @@
-## Freemarker Templates
+## FreeMarker Templates
 
-Ktor includes support for [Freemarker](http://freemarker.org/) templates through the FreeMarker
+Ktor includes support for [FreeMarker](http://freemarker.org/) templates through the FreeMarker
 feature.  Initialize the FreeMarker feature with a
-[TemplateLoader](http://freemarker.org/docs/pgui_config_templateloading.html).
+[TemplateLoader](http://freemarker.org/docs/pgui_config_templateloading.html):
 
 ```
     install(FreeMarker) {
